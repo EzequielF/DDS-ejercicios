@@ -1,0 +1,9 @@
+A lo largo del problema se me presento varias veces la disyuntiva de Herencia o Composición (usando interfaz). Para cada caso lo decidí de la siguiente manera:
+
+Tipos de prendas: Usar composición en este caso me pareció innecesario considerando que una prenda no podría cambiar su tipo, por la cual opte por herencia (aunque no se implemente nada aun con los tipos de prendas).
+
+Estado de prenda: Al contrario que el caso anterior, es lógico pensar que una prenda si podría cambiar su estado, por eso necesitaba usar composición.
+
+Tipo de venta: Aunque ambas opciones eran viables, me pareció que composición iba a ser más fácil de mantener que herencia.
+
+Aclaración: Decidí no incluir algunas variables en el diagrama (como por ejemplo diaDeVenta) por simplificación de este o por ser cosas más arraigadas a mi propio desarrollo que a un modelo del problema.

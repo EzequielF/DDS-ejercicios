@@ -1,3 +1,11 @@
+REQUERIMIENTOS:
+
+1. Saber el precio de venta de una prenda y sus tipos.
+
+2. Saber las ganancias del negocio en un determinado dia.
+
+ANOTACIONES:
+
 A lo largo del problema se me presento varias veces la disyuntiva de Herencia o Composición (usando interfaz). Para cada caso lo decidí de la siguiente manera:
 
 Tipos de prendas: Usar composición en este caso me pareció innecesario considerando que una prenda no podría cambiar su tipo, por la cual opte por herencia (aunque no se implemente nada aun con los tipos de prendas).
